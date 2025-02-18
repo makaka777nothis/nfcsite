@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer; /* Указываем, что кнопка активна */
+}
+
+button img {
+    width: 100px; /* Измените размер по желанию */
+    height: auto;
+}
